@@ -1,0 +1,66 @@
+ul {
+  list-style-type: none;
+  margin: 55px 132px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  border-right: 2px solid #c0c0c0;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #74aeca;
+  font-size:18px;
+}
+
+li a:hover:not(.active) {
+  background-color: #2e7da2;
+}
+
+.active {
+  background-color: #2e7da2;
+  
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password], input[type=number], input[type=date], input[type=email], select, textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #2e7da2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+.container label{
+	align: left;
+}
